@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'constants.dart';
@@ -14,8 +16,8 @@ ThemeData theme() {
 }
 
 AppBarTheme appBarTheme() {
-  return const AppBarTheme(
-    color: Colors.white,
+  return AppBarTheme(
+    color: kPrimaryLightColor,
     elevation: 0,
     systemOverlayStyle: SystemUiOverlayStyle.light,
     iconTheme: IconThemeData(color: Colors.black),
@@ -25,7 +27,7 @@ AppBarTheme appBarTheme() {
 }
 
 TextTheme textTheme() {
-  return const TextTheme(
+  return TextTheme(
     bodyText1: TextStyle(color: kTextColor),
     bodyText2: TextStyle(color: kTextColor),
   );

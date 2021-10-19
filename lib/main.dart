@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kelal_cinema_booking/routes.dart';
+import 'package:kelal_cinema_booking/screens/home/home_screen.dart';
 import 'package:kelal_cinema_booking/theme.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: theme(),
-      initialRoute: '',
+      initialRoute: HomeScreen.routeName,
       routes: routes,
     );
   }
