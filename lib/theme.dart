@@ -17,11 +17,11 @@ ThemeData theme() {
 
 AppBarTheme appBarTheme() {
   return AppBarTheme(
-    color: kPrimaryLightColor,
+    color: kPrimaryColor,
     elevation: 0,
     systemOverlayStyle: SystemUiOverlayStyle.light,
     iconTheme: IconThemeData(color: Colors.black),
-    titleTextStyle: TextStyle(color: kTextColorLight, fontSize: 18),
+    titleTextStyle: TextStyle(color: kTextColor, fontSize: 18),
     centerTitle: true,
   );
 }
